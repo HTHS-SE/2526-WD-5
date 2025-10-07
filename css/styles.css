@@ -1,5 +1,9 @@
 /* --- Class CSS --- */
 
+.navbar {
+  background-color: #E3D5CA;
+}
+
 .footer{
     background-color: #E3D5CA;
 }
@@ -49,6 +53,10 @@
 .card {
   width: 20%;
   height: auto;
+}
+
+.help-center-arrow-toggle {
+  cursor: pointer;
 }
 
 /* --- ID CSS --- */
