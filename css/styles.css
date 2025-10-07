@@ -1,3 +1,5 @@
+/* --- Class CSS --- */
+
 .footer{
     background-color: #E3D5CA;
 }
@@ -47,4 +49,10 @@
 .card {
   width: 20%;
   height: auto;
+}
+
+/* --- ID CSS --- */
+
+#help-center-title {
+  margin-bottom: 60px;
 }
