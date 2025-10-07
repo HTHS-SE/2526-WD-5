@@ -59,6 +59,10 @@
   cursor: pointer;
 }
 
+.help-center-arrow-toggle:active {
+  transform: rotate(180deg);
+}
+
 /* --- ID CSS --- */
 
 #help-center-title {
