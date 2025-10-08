@@ -46,7 +46,7 @@
   font-style: normal;
 }
 
-.lastrow {
+.text40 {
   font-size: 40px;
 }
 
@@ -64,6 +64,16 @@
 }
 
 
+.carousel {
+  background-color: black;
+}
+.carousel-inner {
+  opacity: 50%;
+}
+.carousel-item {
+  height: 340px;
+}
+
 
 /* --- ID CSS --- */
 
@@ -74,3 +84,4 @@
 #FAQ-title {
   margin-bottom: 45px;
 }
+
