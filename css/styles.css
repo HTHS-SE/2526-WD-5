@@ -46,8 +46,16 @@
   font-style: normal;
 }
 
-.lastrow {
-  font-size: 40px;
+.text2-5 {
+  font-size: 2.5rem;
+}
+
+.text2 {
+  font-size: 2rem;
+}
+
+.text1-25 {
+  font-size: 1.25rem;
 }
 
 .card {
@@ -62,6 +70,18 @@
 .help-center-arrow-toggle:active {
   transform: rotate(180deg);
 }
+
+
+.carousel {
+  background-color: black;
+}
+.carousel-inner {
+  opacity: 50%;
+}
+.carousel-item {
+  height: 340px;
+}
+
 
 /* --- ID CSS --- */
 

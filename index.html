@@ -60,28 +60,43 @@
 
             
             <!--Big Image-->
-            <!-- Bootstrap Carousel -->
-                <div id="carouselExample" class="carousel slide mt-3">
+            <!-- Bootstrap Carousel (code originally from bootastrap docs) -->
+                <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="img/placeholder-img.png" class="d-block w-75 mx-auto" alt="slideshow image 1">
+                            <img src="img/placeholder-img-small.png" class="d-block w-100 mx-auto" alt="slideshow image 1">
                         </div>
                         <div class="carousel-item">
-                            <img src="img/placeholder-img.png" class="d-block w-75 mx-auto" alt="slideshow image 2">
+                            <img src="img/placeholder-img.png" class="d-block w-100 mx-auto" alt="slideshow image 2">
                         </div>
                         <div class="carousel-item">
-                            <img src="img/placeholder-img.png" class="d-block w-75 mx-auto" alt="slideshow image 3">
+                            <img src="img/placeholder-img.png" class="d-block w-100 mx-auto" alt="slideshow image 3">
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
+                    <div class="text-center position-absolute z-2 translate-middle top-50 start-50 text-light cinzel" >
+                        <h1 class="text2">Arntheia</h1>
+                        <h3 class="text1-25">Crystal Phone Cases</h2>
+                    </div>
+                    
+                    
+                    
                 </div>
+
+                
             
         </div>
 
@@ -137,7 +152,7 @@
 
 
                     <div class="col-sm">
-                         <p class="lead cinzel lastrow">Arntheia</p>
+                         <p class="lead cinzel text2-5">Arntheia</p>
                     </div>
                     <div class="col-sm">
                          <p class="cormorant-upright-regular text-end">Copyright &copy; SE 2025 Bootstrap</p>
