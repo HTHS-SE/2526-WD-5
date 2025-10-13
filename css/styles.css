@@ -195,6 +195,10 @@
   filter: blur(1.2);
 }
 
+.navbartoggler {
+  border: 0;
+}
+
 /* --- ID CSS --- */
 
 #help-center-title {
