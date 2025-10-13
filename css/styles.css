@@ -213,6 +213,95 @@
   border: 0;
 }
 
+.quantity-div {
+  background: #f8f9fa;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: auto; 
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 10px;
+}
+
+.model-div {
+  background: #f8f9fa;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: auto; 
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 10px;
+}
+
+.quantity-div label {
+  color: #555;
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 0;
+  white-space: nowrap;
+}
+
+.model-div label {
+  color: #555;
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 0;
+  white-space: nowrap;
+}
+
+.select-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.quantity {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+.model {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+  padding-left: 5px;
+  padding-right: 10px; 
+}
+
+.select-icon {
+  position: absolute;
+  right: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 13px;
+  color: #666;
+  pointer-events: none;
+}
+
+
+
+
+
+.select-icon {
+  filter: invert(0.75);
+}
+
+
+
 /* --- ID CSS --- */
 
 #help-center-title {
