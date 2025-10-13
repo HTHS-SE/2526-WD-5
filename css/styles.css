@@ -1,5 +1,11 @@
 /* --- Class CSS --- */
 
+.body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .navbar {
   background-color: #E3D5CA;
 }
@@ -79,9 +85,8 @@
   opacity: 50%;
 }
 .carousel-item {
-  height: 340px;
+  height: 100vh;
 }
-
 
 /* --- ID CSS --- */
 
