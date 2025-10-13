@@ -188,6 +188,7 @@
 }
 
 .shopallcardscard {
+  background-color: black;
   opacity: 0.75;
   filter: blur(0);
   transition-duration: 0.3s;
@@ -197,6 +198,15 @@
   
   opacity: 0.425;
   filter: blur(1.2);
+}
+
+.sectionshopallcardscardtext {
+  filter: invert(0);
+  transition-duration: 0.3s;
+}
+
+.sectionshopallcardscardtext:hover {
+  filter: invert(1);
 }
 
 .navbartoggler {
