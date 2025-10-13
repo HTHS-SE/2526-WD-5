@@ -85,20 +85,27 @@
   opacity: 50%;
 }
 .carousel-item {
-  height: 340px;
+  height: 21.25rem;
 }
 
+.w-85 {
+  width: 85%;
+}
+
+.line-break {
+  margin-top: 4.25rem;
+}
 
 /* --- ID CSS --- */
 
 #help-center-title {
-  margin-bottom: 60px;
+  margin-bottom: 3.75rem;
 }
 
 #FAQ-title {
-  margin-bottom: 45px;
+  margin-bottom: 2.8125rem;
 }
 
 #contact-information-title {
-  padding-left: 5px
+  padding-left: 0.3125rem;
 }
