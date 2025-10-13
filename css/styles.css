@@ -72,16 +72,50 @@
 }
 
 
-.carousel {
+.background-carousel-outer {
   background-color: black;
 }
-.carousel-inner {
+.background-carousel-inner {
   opacity: 50%;
 }
-.carousel-item {
+.background-carousel-item {
   height: 340px;
 }
 
+.blackcarouselbuttons {
+  filter: invert(100);
+}
+
+.productcarousel .carousel-indicators {
+  position: static;
+  margin-top: 10px;
+  justify-content: center;
+  gap: 8px;
+}
+
+.productcarousel .carousel-indicators [data-bs-target] {
+  width: 60px;
+  height: 60px;
+  border: none;
+  margin: 0 5px;
+  background: none !important;
+}
+
+.productcarousel .carousel-indicators img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+  opacity: 0.6;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.productcarousel .carousel-indicators .active img {
+  opacity: 1;
+  transform: scale(1.05);
+  border: 2px solid #000000;
+}
 
 /* --- ID CSS --- */
 
