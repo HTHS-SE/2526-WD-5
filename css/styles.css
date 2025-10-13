@@ -96,6 +96,22 @@
   margin-top: 4.25rem;
 }
 
+.shopallcards {
+  background-color: black;
+}
+
+.shopallcardscard {
+  opacity: 1;
+  filter: blur(0);
+  transition-duration: 0.3s;
+}
+
+.shopallcardscard:hover {
+  
+  opacity: 0.5;
+  filter: blur(1.2);
+}
+
 /* --- ID CSS --- */
 
 #help-center-title {
