@@ -78,15 +78,16 @@
 }
 
 
-.carousel {
+.background-carousel-outer {
   background-color: black;
 }
-.carousel-inner {
+.background-carousel-inner {
   opacity: 50%;
 }
 .carousel-item {
-  height: 100vh;
+  height: 340px;
 }
+
 
 /* --- ID CSS --- */
 
