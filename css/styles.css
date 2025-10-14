@@ -88,9 +88,13 @@
 .background-carousel-inner {
   opacity: 50%;
 }
-.carousel-item {
-  height: 21.25rem;
+.background-carousel-item {
+  height: 37rem;
+  height: 100%;         
+  object-fit: cover;     
+  object-position: center; 
 }
+
 
 .blackcarouselbuttons {
   filter: invert(100);
