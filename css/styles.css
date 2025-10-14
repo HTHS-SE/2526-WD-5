@@ -272,15 +272,13 @@
   pointer-events: none;
 }
 
-
-
-
+.vertical-line {
+  align-self: stretch;
+}
 
 .select-icon {
   filter: invert(0.75);
 }
-
-
 
 /* --- ID CSS --- */
 
