@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arntheia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+                     rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+                     crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+                integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
+                crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="body">
+    <div class="">
+
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+
+                <!--Navbar logo-->
+                <a href="index.html" class="navbar-brand">
+                    <h2 class="d-inline-block align-text-top w-50 cinzel px-4">Arntheia</h2>
+                </a>
+
+                <!--Hamburger menu button-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!--Collapsible navbar menu-->
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="shop-all.html" class="nav-link cinzel">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about-us.html" class="nav-link cinzel">Our Story</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="help-center.html" class="nav-link cinzel">FAQ & Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <br>
+
+        <!-- Cenetered shopping page for the product -->
+         <div class="container-md">
+            <div class="row">
+                <!--<img class="img-fluid" src="img/Lucid_Realism_professional_photo_of_A_sleek_modern_smartphone__2_11d91260-60b7-4148-86bb-f3a6eb2237f4.jpg" alt="">-->
+                <div class="col-lg-7 productcarousel pt-4"> <!-- left column with images -->
+                    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/raw-angle/rose-quartz-glow-1.png" class="d-block w-50 mx-auto" alt="slideshow image 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/attachments/rose-quartz-glow-2.JPG" class="d-block w-50 mx-auto" alt="slideshow image 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/fluxproduct/rose-quartz-glow-3.png" class="d-block w-50 mx-auto" alt="slideshow image 3">
+                            </div>
+                        </div>
+
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+                                <img src="img/raw-angle/rose-quartz-glow-1.png" alt="small product image 1">
+                            </button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">
+                                <img src="img/attachments/rose-quartz-glow-2.JPG" alt="small product image 2">
+                            </button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">
+                                <img src="img/fluxproduct/rose-quartz-glow-3.png" alt="small product image 3">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col"> <!-- right column with options for purchase-->
+                    <div class="row">
+                        <p class="cinzel text2-5 px-4 pt-4">Rose Quartz Glow</p>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <p class="cormorant-upright-medium text2 px-4">$79.99</p>
+                    </div>
+                    <div class="row">
+                        <p class="cormorant-upright-regular px-4">The product is crazy good like talking lorem ipsum levels of jazz its crazy i cant evne lie to you this is an amazing product this is an amazing product this is an amazing product this is an amazing product this is an amazing product </p>
+                    </div>
+                    <div class="row px-4"> <!-- dropdowns -->
+                        <div class="model-div dropdown cormorant-upright-medium">
+                            <label for="model">Model:</label>
+                            <select class="model" name="model" id="model">
+                                <option value="iphone-12"> iPhone 12</option>
+                                <option value="iphone-13"> iPhone 13</option>
+                                <option value="iphone-14"> iPhone 14</option>
+                            </select>
+                            <i class="bi bi-chevron-down select-icon"></i>
+                        </div>
+                        <div class="ms-1 quantity-div dropdown cormorant-upright-medium">
+                            <label for="quantity">Quantity:</label>
+                            <select class="quantity" name="quantity" id="quantity">
+                                <option value="1"> 1</option>
+                                <option value="2"> 2</option>
+                                <option value="3"> 3</option>
+                            </select>
+                            <i class="bi bi-chevron-down select-icon"></i>
+                        </div>
+                    </div>
+                    <div class="row p-4"> <!-- add to card button-->
+                        <button type="button" class="btn btn-dark cinzel">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        
+
+         <br>
+
+
+        <!-- Footer (requires Bootstrap icons) -->
+        <footer class="pt-4 footer text-dark position-relative">
+            <div class="container">
+                <div class="row"> <!-- Shop, help, and about-->
+                    <div class="col-md-1 col-2">
+                        <p class="cormorant-upright-bold">Shop</p>
+                    </div>
+                    <div class="col-md-1 col-2">
+                        <p class="cormorant-upright-bold">Help</p>
+                    </div>
+                    <div class="col-md-1 col-2">
+                        <p class="cormorant-upright-bold">About</p>
+                    </div>
+                    <div class="col text-end">
+                        <p class="cormorant-upright-medium">Sign up to get 25% off your first order!</p>
+                    </div>
+                </div> <!-- glass, contact us, our story -->
+                <div class="row">
+                    <div class="col-md-1 col-2">
+                        <p class="cormorant-upright-regular">Glass</p>
+                    </div>
+                    <div class="col-md-1 col-2">
+                        <p class="cormorant-upright-regular">Contact Us</p>
+                    </div>
+                    <div class="col-md-1 col-2">
+                        <p class="cormorant-upright-regular">Our Story</p>
+                    </div>
+                    <div class="col text-end">
+                        <input type="email" name="" id="" class="cormorant-upright-regular" placeholder="Your E-Mail Address">
+                        <button type="button" class="cormorant-upright-regular">Submit</button>
+                    </div>
+                </div>
+                <div class="row"> <!-- acrylic, faq -->
+                    <div class="col-md-1 col-2">
+                        <p class="cormorant-upright-regular">Acrylic</p>
+                    </div>
+                    <div class="col-md-1 col-2">
+                        <p class="cormorant-upright-regular">FAQ</p>
+                    </div>
+                    <div class="col text-end">
+                        <a href="">
+                            <i class="bi bi-instagram h3 icon-white"></i>
+                        </a>
+                        <a href="">
+                            <i class="bi bi-facebook h3 icon-white"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="row"> <!-- gemstones-->
+                    <div class="col-md-1 col-2">
+                        <p class="cormorant-upright-regular">Gemstones</p>
+                    </div>
+                </div>
+                <br>
+                <div class="row"> <!-- row-->
+                    <div class="col-sm">
+                         <p class="lead cinzel">Arntheia</p>
+                    </div>
+                    <div class="col-sm">
+                         <p class="cormorant-upright-regular text-end">Copyright &copy; SE 2025</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+</body>
+</html>

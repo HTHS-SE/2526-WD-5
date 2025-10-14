@@ -57,7 +57,7 @@
 }
 
 .text2r {
-  font-size: 2em;
+  font-size: 1.3em;
 }
 
 .text2 {
@@ -205,12 +205,12 @@
 }
 
 .sectionshopallcardscardtext {
-  filter: invert(0);
+  filter: invert(1);
   transition-duration: 0.3s;
 }
 
 .sectionshopallcardscardtext:hover {
-  filter: invert(1);
+  filter: invert(0.7);
 }
 
 .navbartoggler {
