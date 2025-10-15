@@ -26,16 +26,18 @@
 
         <!--Navbar-->
         <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid px-0">
+            <div class="container-fluid">
 
                 <!--Navbar logo-->
                 <a href="index.html" class="navbar-brand">
-                    <h2 class="d-inline-block align-text-top w-50 cinzel ps-4">Arntheia</h2>
+                    <h2 class="d-inline-block align-text-top w-50 cinzel px-4">Arntheia</h2>
                 </a>
 
                 <!--Hamburger menu button-->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-                    <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler navbartoggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    <span class="">
+                        <i class="bi bi-list"></i>
+                    </span>
                 </button>
 
                 <!--Collapsible navbar menu-->
@@ -48,7 +50,7 @@
                             <a href="about-us.html" class="nav-link cinzel">Our Story</a>
                         </li>
                         <li class="nav-item">
-                            <a href="help-center.html" class="nav-link cinzel pe-4">FAQ & Contacts</a>
+                            <a href="help-center.html" class="nav-link cinzel">FAQ & Contacts</a>
                         </li>
                     </ul>
                 </div>
@@ -179,76 +181,82 @@
             </div>    
         </div>
 
-        <!-- Footer (requires a Bootstrap icon) -->
-        <footer class="pt-4 footer text-dark position-relative">
-            <div class="container">
-                <div class="row"> <!-- Shop, help, and about-->
-                    <div class="col-1">
-                        <p class="cormorant-upright-bold">Shop</p>
-                    </div>
-                    <div class="col-1">
-                        <p class="cormorant-upright-bold">Help</p>
-                    </div>
-                    <div class="col-1">
-                        <p class="cormorant-upright-bold">About</p>
-                    </div>
-                    <div class="col text-end">
-                        <p>test</p>
-                    </div>
-                </div> <!-- glass, contact us, our story -->
-                <div class="row">
-                    <div class="col-1">
+        <!-- Footer (requires Bootstrap icons) -->
+    <footer class="pt-4 footer text-dark position-relative">
+        <div class="container">
+            <div class="row"> <!-- Shop, help, and about-->
+                <div class="col-md-1 col-2">
+                    <p class="cormorant-upright-bold">Shop</p>
+                </div>
+                <div class="col-md-1 col-2">
+                    <p class="cormorant-upright-bold">Help</p>
+                </div>
+                <div class="col-md-1 col-2">
+                    <p class="cormorant-upright-bold">About</p>
+                </div>
+                <div class="col text-end">
+                    <p class="cormorant-upright-medium">Sign up to get 25% off your first order!</p>
+                </div>
+            </div> <!-- glass, contact us, our story -->
+            <div class="row">
+                <div class="col-md-1 col-2">
+                    <a href="glass-crystal.html">
                         <p class="cormorant-upright-regular">Glass</p>
-                    </div>
-                    <div class="col-1">
+                    </a>
+                </div>
+                <div class="col-md-1 col-2">
+                    <a href="help-center.html">
                         <p class="cormorant-upright-regular">Contact Us</p>
-                    </div>
-                    <div class="col-1">
+                    </a>
+                </div>
+                <div class="col-md-1 col-2">
+                    <a href="about-us.html">
                         <p class="cormorant-upright-regular">Our Story</p>
-                    </div>
+                    </a>
                 </div>
-                <div class="row"> <!-- acrylic, faq -->
-                    <div class="col-1">
-                        <p class="cormorant-upright-regular">Acrylic</p>
-                    </div>
-                    <div class="col-1">
-                        <p class="cormorant-upright-regular">FAQ</p>
-                    </div>
+                <div class="col text-end">
+                    <input type="email" name="" id="" class="cormorant-upright-regular"
+                        placeholder="Your E-Mail Address">
+                    <button type="button" class="cormorant-upright-regular">Submit</button>
                 </div>
-                <div class="row"> <!-- gemstones-->
-                    <div class="col-1">
-                        <p class="cormorant-upright-regular">Gemstones</p>
-                    </div>
-                </div>
-                <br>
-                
-
-
-
-
-                <div class="row"> <!-- row-->
-    
-
-
-                    <div class="col-sm">
-                         <p class="lead cinzel text2-5">Arntheia</p>
-                    </div>
-                    <div class="col-sm">
-                         <p class="cormorant-upright-regular text-end">Copyright &copy; SE 2025 Bootstrap</p>
-                    </div>
-
-
-                </div>
-
-
-               
-               <!-- 
-                <p></p>
-                <a href="#" class="position-absolute bottom-0 end-0 p-5">
-                    <i class="bi bi-arrow-up-circle h2 icon-white"></i>
-                </a>
-                -->
             </div>
-        </footer>
+            <div class="row"> <!-- acrylic, faq -->
+                <div class="col-md-1 col-2">
+                    <a href="acrylic-crystal.html">
+                        <p class="cormorant-upright-regular">Acrylic</p>
+                    </a>
+                </div>
+                <div class="col-md-1 col-2">
+                    <a href="help-center.html">
+                        <p class="cormorant-upright-regular">FAQ</p>
+                    </a>
+                </div>
+                <div class="col text-end">
+                    <a href="">
+                        <i class="bi bi-instagram h3 icon-white"></i>
+                    </a>
+                    <a href="">
+                        <i class="bi bi-facebook h3 icon-white"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="row"> <!-- gemstones-->
+                <div class="col-md-1 col-2">
+                    <a href="gemstone-crystal.html">
+                        <p class="cormorant-upright-regular">Gemstones</p>
+                    </a>
+                </div>
+            </div>
+            <br>
+            <div class="row"> <!-- row-->
+                <div class="col-sm">
+                    <p class="lead cinzel">Arntheia</p>
+                </div>
+                <div class="col-sm">
+                    <p class="cormorant-upright-regular text-end">Copyright &copy; SE 2025</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
